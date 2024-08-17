@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-                git 'https://github.com/pedro-damian/desarrollo-backend/tree/main/zegel-claim-book-docker'
+                git 'https://github.com/pedro-damian/app'
             }
         }
         stage('Build'){
